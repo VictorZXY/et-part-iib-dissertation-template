@@ -4,7 +4,7 @@
 
 ### Compile the LaTeX document
 
-A LaTeX editor such as [TeXstudio](https://www.texstudio.org/) or [Texmaker](https://www.xm1math.net/texmaker/), or an online LaTeX editor such as [Overleaf](https://www.overleaf.com/), includes the functionality to compile a LaTeX document by simply clicking a button. To build a PDF document `diss.pdf` from the LaTeX source file `diss.tex` in the command line (Linux/macOS/Windows), use the following command:
+A LaTeX editor such as [TeXstudio](https://www.texstudio.org/) or [Texmaker](https://www.xm1math.net/texmaker/), or an online LaTeX editor such as [Overleaf](https://www.overleaf.com/), enables you to compile a LaTeX document by simply clicking a button. To build a PDF document `diss.pdf` from the LaTeX source file `diss.tex` in the command line (Linux/macOS/Windows), use the following command:
 
     pdflatex diss
 
