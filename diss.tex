@@ -1,14 +1,14 @@
 % Template for a Economics Tripos Part IIB dissertation
 %\documentclass[12pt,a4paper,twoside,openright]{article}  % for double-sided printing
 \documentclass[12pt,a4paper]{article}
-\usepackage[natbibapa]{apacite}  % APA citation style 
 \usepackage[pdfborder={0 0 0}]{hyperref}  % turns references into hyperlinks
 \usepackage[margin=25mm]{geometry}  % adjusts page layout
-\usepackage{abstract}
-\usepackage{booktabs}  % professional-quality tables
-\usepackage{graphicx}  % allows inclusion of PDF, PNG and JPG images
+\usepackage{abstract}   % abstract typesetting
+\usepackage{booktabs}   % professional-quality tables
+\usepackage{graphicx}   % allows inclusion of PDF, PNG and JPG images
+\usepackage{natbib}     % natbib citation style 
 \usepackage{newpxtext}  % uses Adobe Palatino-like fonts
-\usepackage{setspace}  % adjusts line spacing
+\usepackage{setspace}   % adjusts line spacing
 
 \raggedbottom    % try to avoid widows and orphans
 \sloppy
@@ -258,9 +258,8 @@ This template uses the APA citation format. Citations within the text appear in
 parentheses as~\citep{Chang14} or, if the author's name appears in the text
 itself, as \citet{Chang14}. Append lowercase letters to the year in cases of
 ambiguities. Treat double authors as in~\citep{Mankiw14}, but write as
-in~\shortcites{Floud14}\citep{Floud14} when more than two authors are
-involved (the \verb|\shortcites{key}| command is required only for the first
-time you cite \texttt{key}). Collapse multiple citations as
+in~\citep{Floud14} when more than two authors are
+involved. Collapse multiple citations as
 in~\citep{Mankiw14,Floud14}. Refrain from using full citations as sentence
 constituents. Instead of ``\citep{Chang14} showed that ...'', write
 ``\citet{Chang14} showed that ...''. Your reference list is \textit{not}
@@ -349,7 +348,7 @@ helpful and saved you time.
 
 \newpage
 %\addcontentsline{toc}{section}{References}
-\bibliographystyle{apacite}
+\bibliographystyle{apalike}
 \bibliography{refs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
